@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <WebView
         android:id="@+id/webview"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-</RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/prograssbar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="visible"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="20"/>
+
+</FrameLayout>
