@@ -1,10 +1,10 @@
 # Autograpfh
  Autograpfh is the signature App help people to write to others Espcially Graduation Student in their Graduation Party.
 
-#Features 
+# Features 
 this is project for autograph for graduation students using WebView
 
-#Installation
+# Installation
     $ git clone https://github.com/mmahmoudothman/Autograpfh.git
     
 ## License
